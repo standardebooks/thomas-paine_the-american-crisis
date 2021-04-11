@@ -16,6 +16,10 @@
 	-epub-hyphens: none;
 }
 
+[epub|type~="epigraph"] em{
+	font-style: normal;
+}
+
 [epub|type~="epigraph"] cite{
 	margin-top: 1em;
 	font-style: normal;
