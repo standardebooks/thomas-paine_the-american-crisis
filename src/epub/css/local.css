@@ -57,6 +57,18 @@ section > header [epub|type~="epigraph"]{
 }
 /* End poem */
 
+/* Blockquote */
+body[epub|type~="bodymatter"] blockquote{
+	margin: 1em 0;
+}
+
+#crisis-3 blockquote header,
+#crisis-10 blockquote header{
+	padding-bottom: 1em;
+}
+/* End blockquote */
+
+/* Footer content */
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -71,6 +83,7 @@ footer{
 	text-align: initial;
 	text-indent: 0;
 }
+/* End footer content */
 
 /* Tables */
 table{
