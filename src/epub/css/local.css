@@ -9,6 +9,11 @@
 	text-indent: 0;
 }
 
+q{
+	/* italicised phrases for quotations of speech */
+	font-style: italic;
+}
+
 /* Epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
