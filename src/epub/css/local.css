@@ -14,6 +14,10 @@ q{
 	font-style: italic;
 }
 
+em strong{
+	font-style: normal;
+}
+
 /* Epigraph */
 [epub|type~="epigraph"]{
 	font-style: italic;
@@ -45,6 +49,25 @@ section > header [epub|type~="epigraph"]{
 }
 /* End epigraph */
 
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
 /* Poem */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
@@ -63,7 +86,8 @@ section > header [epub|type~="epigraph"]{
 /* End poem */
 
 /* Blockquote */
-body[epub|type~="bodymatter"] blockquote{
+#crisis-3 blockquote,
+#crisis-10 blockquote:nth-last-of-type(2){
 	margin: 1em 0;
 }
 
