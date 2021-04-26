@@ -46,18 +46,18 @@ section > header [epub|type~="epigraph"]{
 /* End epigraph */
 
 /* Poem */
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 /* End poem */
@@ -69,6 +69,7 @@ body[epub|type~="bodymatter"] blockquote{
 
 #crisis-3 blockquote header,
 #crisis-10 blockquote header{
+	font-style: italic;
 	padding-bottom: 1em;
 }
 /* End blockquote */
@@ -92,7 +93,7 @@ footer{
 
 /* Tables */
 table{
-	margin: 1em auto 1em auto;
+	margin: 1em auto;
 }
 
 table td:first-child{
@@ -100,10 +101,15 @@ table td:first-child{
 }
 
 table td:last-child{
+	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
 
-table tr:last-child td:last-child{
+table tfoot td:first-child{
+	text-align: right;
+}
+
+table tfoot td:last-child{
 	border-top: 1px solid;
 }
 /* End tables */
