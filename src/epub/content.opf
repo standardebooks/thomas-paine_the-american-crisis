@@ -42,7 +42,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/31270</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009832797</dc:source>
 		<meta property="se:production-notes">(1) Capitalization follows the PG transcription; (2) Conway’s notes were restored from the page scans.</meta>
-		<meta property="se:word-count">76856</meta>
+		<meta property="se:word-count">76854</meta>
 		<meta property="se:reading-ease.flesch">49.69</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_American_Crisis</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/thomas-paine_the-american-crisis</meta>
