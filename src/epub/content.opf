@@ -39,7 +39,7 @@
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Crisis I</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:abstract>A collection of articles written during the American Revolutionary War that outline Paine’s support for a self-governing America.</dc:abstract>
+		<meta property="schema:abstract">A collection of articles written during the American Revolutionary War that outline Paine’s support for a self-governing America.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The American Crisis&lt;/i&gt; is a collection of articles by &lt;a href="https://standardebooks.org/ebooks/thomas-paine"&gt;Thomas Paine&lt;/a&gt;, originally published from December 1776 to December 1783, that focus on rallying Americans during the worst years of the Revolutionary War. Paine used his deistic beliefs to galvanize the revolutionaries, for example by claiming that the British are trying to assume the powers of God and that God would support the American colonists. These articles were so influential that others began to adopt some of their more stirring phrases, catapulting them into the cultural consciousness; for example, the opening line of the first Crisis, which reads “These are the times that try men’s souls.”&lt;/p&gt;
 		</dc:description>
