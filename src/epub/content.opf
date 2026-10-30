@@ -35,7 +35,7 @@
 		<meta property="term" refines="#subject-1">sh85104440</meta>
 		<meta property="schema:genre">Philosophy</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Crisis I</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
@@ -73,6 +73,7 @@
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-1" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="sponsor">Threadable</dc:contributor>
 		<meta property="file-as" refines="#sponsor">Threadable</meta>
