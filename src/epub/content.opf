@@ -46,7 +46,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/31270</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009832797</dc:source>
-		<meta property="schema:wordCount">76734</meta>
+		<meta property="schema:wordCount">76730</meta>
 		<meta property="schema:educationalLevel">49.79</meta>
 		<link href="https://en.wikipedia.org/wiki/The_American_Crisis" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
